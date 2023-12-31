@@ -10,25 +10,23 @@
     <script src="./src/components/TituloDinamico.js" defer></script>
   </head>
   <body>
-    <div class="container">
-      <div class="card">
-        <div class="card__left">
-          <span>Rubén Vásquez</span>
-          <a href="#">Darth Vader Contrata Devs</a>
-          <p>
-            Darth Vader procura desenvolvedores que sabem trabalhar com
-            componentes
-          </p>
-        </div>
-        <div class="card__right">
-          <img
-            src="./assets/images/darth-vader.jpg"
-            alt="Imagem de Darth Vader"
-          />
-        </div>
-      </div>
-    </div>
+    <div class="app-root">
+      <card-news
+        author="Rubén"
+        title="Darth Vader Contrata Devs"
+        link-url="www.google.com.br"
+        content="Darth Vader procura desenvolvedores que sabem trabalhar com
+              componentes"
+        photo="./assets/images/darth-vader.jpg"
+      ></card-news>
 
-    <card-news></card-news>
+      <card-news
+        title="Darth Vader Contrata Devs"
+        link-url="www.google.com.br"
+        content="Darth Vader procura desenvolvedores que sabem trabalhar com
+              componentes"
+        photo="./assets/images/darth-vader.jpg"
+      ></card-news>
+    </div>
   </body>
 </html>
